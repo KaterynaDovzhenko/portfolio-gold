@@ -3,6 +3,7 @@ body {
     background-color: var(--bg-color);
     font-size: 20px;
     font-weight: 400;
+    color: var(--main-color-text);
 
     overflow-x: auto;
     overflow-y: scroll;
@@ -14,16 +15,15 @@ body {
 
 :root {
     --main-font: 'Rufina', sans-serif;
-    --accent: #5984F0;
+    --accent: #E9AD52;
     --bg-color: #121212;
-    --main-color-text: #BEC5D4;
-    --secondary-accent-color: #131924;
-    --third-color: #8896c0;
+    --main-color-text: #cdc4b4;
+    --secondary-accent-color: #40464f;
+    --third-color: #b69f80;
     --forth-color: #1A1D23;
-    --fifth-color: #8894AD;
-    --sixth-color: #495168;
+    --fifth-color: #544633;
     --color-text: #868b94;
-    --footer: #989eaa93;
+    --footer: #c7b29494;
     --box-shadow: 6px 8px 7px 0px rgba(0, 0, 0, 0.25);
 
     --transition-color: color 0.75s ease-out;
@@ -81,7 +81,7 @@ img {
 }
 
 .section-title {
-    color: var(--main-color-text);
+    color: var(--accent);
     font-family: var(--main-font);
     font-size: 40px;
     text-align: center;
@@ -611,7 +611,7 @@ img {
     top: -7px;
     left: 510px;
     z-index: -1;
-    background-color: var(--third-color);
+    background-color: var(--accent);
 
     transition: transform 0.7s cubic-bezier(.44, .5, .55, .56);
 }

@@ -103,7 +103,7 @@ canvas{
 /* ======================= ABOUT SECTION ======================= */
 
 .about{
-    background: linear-gradient(to left, var(--third-color)0 40%, var(--secondary-accent-color)0 60% ); 
+    background: linear-gradient(to left, var(--third-color)0 40%, var(--forth-color)0 60% ); 
 }
 
 
@@ -137,10 +137,12 @@ canvas{
 .about__title{
     margin-bottom: 15px;
     position: inherit;
+    color: #926c2a;
 }
 
 .about__paragraph{
     position: inherit;
+    color: #926c2a;
 }
 
 .about__card {
@@ -250,6 +252,7 @@ canvas{
 
 .works__container > .section-title {
     padding-bottom: 150px;
+    color: var(--main-color-text);
 }
 
 .gallery{
@@ -281,7 +284,7 @@ canvas{
 .works__img{
     width: 435px;
     height: 619px;
-    filter: brightness(65%);
+    filter: brightness(85%);
     transition: filter 0.8s ease-in-out, transform 0.9s ease-in-out;
     transform: scale(1);
 }
@@ -299,7 +302,7 @@ canvas{
 .text-block{
     letter-spacing: .5px;
     line-height: 130%;
-    color: var(--color-text);
+    color: var(--main-color-text);
     text-align: right;
     display: inline-flex;
     flex-direction: column;
@@ -335,7 +338,7 @@ canvas{
 
 .app__after::after {
     filter: brightness(65%);
-    background-color: var(--sixth-color);
+    background-color: var(--third-color);
     width: 473px;
     height: 750px;
     top: -68px;
@@ -352,7 +355,7 @@ canvas{
 
 .roadtime__after::after {
     filter: brightness(65%);
-    background-color: #8894AD;
+    background-color: var(--secondary-accent-color);
     width: 414px;
     height: 485px;
     top: 181px;
@@ -373,8 +376,9 @@ canvas{
     margin-bottom: 20px;
 }
 
-.ideas .paragraph {
+.ideas__p {
     margin-bottom: 70px;
+    color: var(--accent);
 }
 
 .main__btn-cotainer-ideas {
@@ -383,7 +387,7 @@ canvas{
     margin-left: auto;
     margin-right: auto;
     
-    background-color: var(--third-color);
+    background-color: var(--accent);
  
     display: flex;
 
@@ -505,7 +509,7 @@ canvas{
 }
 
 .skills__list li {
-    color: var(--color-text);
+    color: var(--main-color-text);
     line-height: normal;
     margin-bottom: 25px;
 }
@@ -522,7 +526,7 @@ canvas{
 
 
 .skills__title{
-    color: var(--color-text);
+    color: var(--main-color-text);
     text-align: start;
     font-weight: 400;
     font-family: Rufina;
