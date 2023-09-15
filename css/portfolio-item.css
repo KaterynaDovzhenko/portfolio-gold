@@ -1,0 +1,98 @@
+.main-section{
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.port-item__img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 896px;
+}
+
+.port-item__sneaker{
+    position: absolute;
+    top: 162px;
+    left: 625px;
+}
+
+.img__masfor-sneaker{
+    width: 794px;
+}
+
+.info__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    max-width: 894px;
+    color: var(--color-text);
+}
+
+.list-skills{
+    justify-content: center;
+    margin-bottom: 120px;
+    padding: 50px 0;
+    margin-top: 90px;
+    display: flex;
+    gap: 38px;
+    border-top: 1px solid var(--footer);
+    border-bottom: 1px solid var(--footer);
+}
+
+.section-title.masfor{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+}
+
+.colors__masfor-item{
+    width: 100px;
+    height: 100px;
+}
+
+.colors__masfor li:first-child {
+    background-color: #282129;
+}
+
+.colors__masfor li:nth-child(2) {
+    background-color: #9C999C;
+}
+.colors__masfor li:nth-child(3) {
+    background-color: #ECECEC;
+}
+.colors__masfor li:last-child {
+    background-color: #A77545;
+}
+
+.demonstration > .container{
+    position: relative;
+    margin-top: 170px;
+}
+
+.mockup-iph__masfor {
+    position: absolute;
+    top: 205px;
+    left: 870px;
+}
+
+
+.btn__works::before {
+   opacity: 0;
+}
+.btn__works::after {
+    left: 55px;
+}
+
+.btn__works{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 130px;
+}
